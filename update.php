@@ -11,6 +11,7 @@
     if(mysqli_query($conexao, $sql))
     {
         echo 'Atualizado';
+        echo '<a href="select.php" class="btn btn-primary">Lista de Produtos</a>';
     }
 
     mysqli_close($conexao);
